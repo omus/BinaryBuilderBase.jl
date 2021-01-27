@@ -1,24 +1,16 @@
 [["GCCBootstrap-aarch64-apple-darwin20.v11.0.0-iains.x86_64-linux-musl.squashfs"]]
 arch = "x86_64"
-git-tree-sha1 = "6f3a936871b33cb31faf048c584cdc55f7517731"
+git-tree-sha1 = "885a7c2bccdb77df9e3c276e64e7a7e0f66a036a"
 lazy = true
 libc = "musl"
 os = "linux"
-
-    [["GCCBootstrap-aarch64-apple-darwin20.v11.0.0-iains.x86_64-linux-musl.squashfs".download]]
-    sha256 = "475c8ecea98c6243cc6127ea7dd6e74edcf7dcba58627b88fe37de19817f3e54"
-    url = "https://github.com/JuliaPackaging/Yggdrasil/releases/download/GCCBootstrap-v11.0.0-iains/GCCBootstrap-aarch64-apple-darwin20.v11.0.0-iains.x86_64-linux-musl.squashfs.tar.gz"
 
 [["GCCBootstrap-aarch64-apple-darwin20.v11.0.0-iains.x86_64-linux-musl.unpacked"]]
 arch = "x86_64"
-git-tree-sha1 = "89882b418ef76900a5da56ef9408509998c96896"
+git-tree-sha1 = "2df9e0250d4bc7cf95a84d243263e8a548c38f8e"
 lazy = true
 libc = "musl"
 os = "linux"
-
-    [["GCCBootstrap-aarch64-apple-darwin20.v11.0.0-iains.x86_64-linux-musl.unpacked".download]]
-    sha256 = "30320b7e7e9e68271a133d19fdb4e57b602fa78a815f4dc1ed4269737f0e84eb"
-    url = "https://github.com/JuliaPackaging/Yggdrasil/releases/download/GCCBootstrap-v11.0.0-iains/GCCBootstrap-aarch64-apple-darwin20.v11.0.0-iains.x86_64-linux-musl.unpacked.tar.gz"
 
 [["GCCBootstrap-aarch64-linux-gnu.v10.2.0.x86_64-linux-musl.squashfs"]]
 arch = "x86_64"
@@ -2134,17 +2126,25 @@ os = "linux"
 
 [["PlatformSupport-aarch64-apple-darwin20.v2020.11.6.x86_64-linux-musl.squashfs"]]
 arch = "x86_64"
-git-tree-sha1 = "31b37fec1d43a28ac3af15fb776292840db3a610"
+git-tree-sha1 = "067ad2de49b0bd86fad9606e698c1bb59129298f"
 lazy = true
 libc = "musl"
 os = "linux"
 
+    [["PlatformSupport-aarch64-apple-darwin20.v2020.11.6.x86_64-linux-musl.squashfs".download]]
+    sha256 = "d59404e8b02aaa37b60beb22ddb28e6400f1ca2b6c0de32e18a4ebd8e16d7755"
+    url = "https://github.com/JuliaPackaging/Yggdrasil/releases/download/PlatformSupport-v2021.1.22/PlatformSupport-aarch64-apple-darwin20.v2021.1.22.x86_64-linux-musl.squashfs.tar.gz"
+
 [["PlatformSupport-aarch64-apple-darwin20.v2020.11.6.x86_64-linux-musl.unpacked"]]
 arch = "x86_64"
-git-tree-sha1 = "18066b20b590953387901ca0b6aa61eff71caa61"
+git-tree-sha1 = "7fca98789ff45a7e551ca633b2e67bf219bb4140"
 lazy = true
 libc = "musl"
 os = "linux"
+
+    [["PlatformSupport-aarch64-apple-darwin20.v2020.11.6.x86_64-linux-musl.unpacked".download]]
+    sha256 = "15a2e2251b8fb9eb392caa752436354fbe919471d501ef28138cd955fc5f0354"
+    url = "https://github.com/JuliaPackaging/Yggdrasil/releases/download/PlatformSupport-v2021.1.22/PlatformSupport-aarch64-apple-darwin20.v2021.1.22.x86_64-linux-musl.unpacked.tar.gz"
 
 [["PlatformSupport-aarch64-apple-darwin20.v2021.1.22.x86_64-linux-musl.squashfs"]]
 arch = "x86_64"
